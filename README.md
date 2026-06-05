@@ -1,4 +1,4 @@
-# pharos-token-analytics
+# Pharos Token Analytics
 
 **A Pharos Agent Centre Skill** for on-chain token analytics on the [Pharos blockchain](https://pharos.xyz).
 
