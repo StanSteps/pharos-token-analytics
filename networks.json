@@ -1,0 +1,35 @@
+{
+  "networks": [
+    {
+      "name": "atlantic-testnet",
+      "displayName": "Pharos Atlantic Testnet",
+      "chainId": 688688,
+      "rpcUrl": "https://testnet.dplabs-internal.com",
+      "explorerUrl": "https://pharosscan.xyz",
+      "explorerApiUrl": "https://pharosscan.xyz/api",
+      "nativeToken": "PHRS",
+      "type": "testnet"
+    },
+    {
+      "name": "mainnet",
+      "displayName": "Pharos Mainnet",
+      "chainId": 2288,
+      "rpcUrl": "https://rpc.pharos.xyz",
+      "explorerUrl": "https://pharosscan.xyz",
+      "explorerApiUrl": "https://pharosscan.xyz/api",
+      "nativeToken": "PHRS",
+      "type": "mainnet"
+    }
+  ],
+  "wellKnownTokens": {
+    "atlantic-testnet": {
+      "USDC": "0x72df0bcd7d0b85a19e7b8b88f6ce923cc48a5fe7",
+      "USDT": "0xD4071393f8716361F8Af3a15D4F272f5F5D5A5fE"
+    },
+    "mainnet": {}
+  },
+  "wellKnownAddresses": {
+    "burnAddress": "0x000000000000000000000000000000000000dEaD",
+    "zeroAddress": "0x0000000000000000000000000000000000000000"
+  }
+}
